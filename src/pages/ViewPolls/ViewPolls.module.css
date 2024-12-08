@@ -1,0 +1,46 @@
+
+.container {
+    position: relative;    
+    background: #ffffff;
+  }
+  
+  .pollsContainer {
+    display: flex;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .pollItem {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    width: 400px;
+    height: 86px;
+    background: #ffffff;
+    border: 1px solid #f2eeee;
+    margin-bottom: 10px;
+  }
+  
+  .pollItemTitle {
+    max-width: 368px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .pollItemDate {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #818181;
+  }
+  

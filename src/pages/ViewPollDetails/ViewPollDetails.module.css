@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1728px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+  }
+  
+  .pollListContainer {
+    width: 400px;
+    height: auto;
+    border-right: 1px solid #f2eeee;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .pollItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 16px;
+    border: 1px solid #f2eeee;
+    background: #ffffff;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .pollItem:hover {
+    background: #f8f8f8;
+  }
+  
+  .pollItemTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .pollItemDate {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #818181;
+  }
+  
+  .detailsContainer {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .detailsBox {
+    padding: 26px;
+    border: 1px solid #f2eeee;
+    border-radius: 9px;
+    background: #ffffff;
+    width: 400px;
+  }
+  
+  .detailsTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+  
+  .detailsOptionsLabel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #818181;
+    margin-bottom: 8px;
+  }
+  
+  .detailsOptions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .detailsOption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

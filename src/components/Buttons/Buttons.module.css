@@ -1,0 +1,62 @@
+/* Base Button Styles */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+ 
+}
+
+
+.submitButton {
+  width: 96px;
+  height: 30px;
+  background: #27a98b;
+  color: #ffffff;
+}
+
+.submitButton:hover {
+  background: #227a66;
+}
+
+.submitButton:disabled {
+  cursor: not-allowed;
+}
+
+/* Add Button */
+.addButton {
+  width: 34px;
+  height: 34px;
+  background: #27a98b;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.addButton:hover {
+  background: #227a66;
+}
+
+/* Remove Button */
+.removeButton {
+  background: transparent;
+  color:  #27a98b;
+  font-size: 11px;
+  padding: 0;
+}
+
+.removeButton:hover {
+  color: #227a66;
+}
+
+  
