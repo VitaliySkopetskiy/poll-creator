@@ -1,0 +1,90 @@
+{
+  "name": "Vitaly Skopetskiy",
+  "title": "Full-Stack Engineer (Front-End Focus)",
+  "location": "Chicago, IL",
+  "phone": "+1 (917) 517-6399",
+  "email": "vit.skopetsky@gmail.com",
+  "linkedin": "LinkedIn Profile",
+  "summary": "Front-end–oriented engineer who turns big, boring data into beautiful, dynamic colors. React/Node expert with a strong sense of ownership who sets aside his ego to get things done. With 7+ years of diverse web development experience and a background in product and marketing, I have a proactive approach that focuses on the \"big picture\" and bridges gaps across teams.",
+  "skills": {
+    "front_end": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Redux",
+      "HTML/CSS/SCSS",
+      "Kendo",
+      "Tailwind",
+      "Webpack",
+      "MUI",
+      "React-Query (TanStack)",
+      "React-Popper"
+    ],
+    "concepts": ["Atomic design", "HOC", "WCAG", "SOLID"],
+    "tools": ["Storybook", "Git", "Pendo", "Jest", "Lighthouse", "Jira"],
+    "back_end": ["Node.js", "Express.js", "RESTful APIs"],
+    "other": ["CI/CD pipeline", "Docker", "GitHub Actions", "WebSockets", "SQL", "AWS"]
+  },
+  "experience": [
+    {
+      "title": "Software Engineer, Front-end architect",
+      "company": "Contracts for early startups",
+      "location": "",
+      "start": "August 2024",
+      "end": "Present",
+      "details": [
+        "Build the front-end architecture for early-stage startups (DigitalVertex) that includes state management and core, reusable components.",
+        "Adjusted several AI services and customized CSS, HTML, and JS."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer, Front-end (React)",
+      "company": "Reveal Data",
+      "location": "Chicago, IL",
+      "start": "June 2022",
+      "end": "August 2024",
+      "details": [
+        "Product-oriented senior engineer who built a complex end-to-end React/Redux platform (Reveal11) while collaborating with multiple agile teams.",
+        "Developed and improved AI-powered solutions for searching, reviewing, and processing large-scale data to meet the needs of Fortune 500 companies.",
+        "Created or significantly refactored 20+ reusable components aligned with a new style guide, atomic design principles, and Storybook support.",
+        "Led implementations of accessibility standards, elevating compliance from WCAG.",
+        "Optimized performance and loading speeds by 5x in key areas through avoiding unnecessary re-renders, using dynamic imports, delaying non-critical API calls, and caching data.",
+        "Implemented internationalization and automated translation, expanding the app to over 50 countries (AWS SDK, i18n, AI).",
+        "Implemented Pendo analytics to track user behavior, providing valuable client insights."
+      ]
+    },
+    {
+      "title": "Full Stack Developer, React/Node",
+      "company": "CRM Kompot",
+      "location": "Sunnyvale, CA",
+      "start": "May 2019",
+      "end": "June 2022",
+      "details": [
+        "Built essential parts of CRM Kompot including modules like orders and vendors.",
+        "Refactored a significant portion of legacy code, including migrating the routing strategy.",
+        "Enhanced user registration and authentication security, reducing vulnerabilities and improving stability.",
+        "Streamlined the payment process by integrating Stripe's payment platform."
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Contracts, E-Learning Platform LC",
+      "location": "Remote",
+      "start": "January 2017",
+      "end": "April 2019",
+      "details": [
+        "Maintained UI modules for educational platforms using JS, CSS, React, Redux, Bootstrap, and Ant Design, customizing styles and resolving bugs to enhance user experience.",
+        "Built e-commerce websites for small business clients, enabling each to launch online stores that averaged a 30% increase in sales in the first six months.",
+        "Focused on responsive design, user-friendly interfaces, and SEO. Utilized platforms such as Ecwid, Shopify, and WordPress, extending with JavaScript, HTML/CSS."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Business and Economics",
+      "institution": "RAI (former RACU)",
+      "year": 2011
+    }
+  ]
+}
